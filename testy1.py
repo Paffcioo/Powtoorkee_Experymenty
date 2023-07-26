@@ -1,4 +1,4 @@
-from utils import character_multiplier as cm
+from utils import character_multiplier as cm, mnożenie_przez_pi as mp
 
 text = 'Ala ma kota i dwa psy'
 print(text.split())
@@ -19,3 +19,6 @@ from password_generator import create_password as cp
 
 hasełko = cp(20, 1, 1, 1, 1)
 print(hasełko)
+
+print(mp(2))
+
