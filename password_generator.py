@@ -12,7 +12,7 @@ includes_capital = True
 includes_special = True
 includes_digits = True
 
-
+# includes_small, includes_capital, includes_special, includes_digits = None
 
 def create_password(password_length, includes_small, includes_capital, includes_special, includes_digits):
     list_of_signs = []
@@ -35,6 +35,7 @@ password = create_password(password_length, includes_small, includes_capital, in
 print(password)
 pass2 = create_password(10, 0, 1, 1, 1)
 print(pass2)
+pass3 = create_password(12, 1,1,1,1)
 # parameters = 1, 1, 1, 1
 # pass3 = create_password(6, parameters[0], parameters[1], parameters[2], parameters[3])
 # pass4 = create_password(4, parameters[m] for m in parameters)
