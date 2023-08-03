@@ -1,4 +1,5 @@
 from utils import character_multiplier as cm, mnożenie_przez_pi as mp
+from typing import NewType
 
 text = 'Ala ma kota i dwa psy'
 print(text.split())
@@ -21,4 +22,8 @@ hasełko = cp(20, 1, 1, 1, 1)
 print(hasełko)
 
 print(mp(2))
+
+
+
+
 
